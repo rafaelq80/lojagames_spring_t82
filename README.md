@@ -176,16 +176,48 @@ git clone https://github.com/rafaelq80/lojagames_spring_t82.git
 
 <br />
 
-## 8. Implementações Futuras
+## 8. Como Executar os Testes no STS
 
-- [x] Consulta de produtos pelo maior e menor preço
-- [ ] Segurança da aplicação
-- [ ] Testes
-- [ ] Deploy
+### 8.1. **Localizando as Classes de Teste**
+
+- Na **Package Explorer**, navegue até a Source Folder `src/test/java`
+- Localize as classes que contém os testes (classes cujo nome terminam com a palavra **Test**)
 
 <br />
 
-## 9. Contribuição
+### 8.2. **Executando os Testes**
+
+Você pode executar os testes de duas formas:
+
+#### 👉 Opção 1: Executar uma classe de teste específica
+
+- Clique com o botão direito sobre a classe de teste
+- Selecione a opção `Run As > JUnit Test`
+
+#### 👉 Opção 2: Executar todos os testes do projeto
+
+- Clique com o botão direito sobre a pasta do projeto
+- Selecione: `Run As > JUnit test` 
+
+<br />
+
+### 8.3. **Verificando os Resultados**
+
+- Ao executar os testes, na **Package Explorer**, será exibida a guia **JUnit**  mostrando os resultados dos testes
+- Os testes que falharem serão destacados em vermelho, e os bem-sucedidos em verde
+- Clique nos testes para visualizar os detalhes ou mensagens de erro no item **Failure Trace**
+
+<br />
+
+## 9. Implementações Futuras
+
+- [x] Consulta de produtos pelo maior e menor preço
+- [x] Segurança da aplicação
+- [x] Testes
+
+<br />
+
+## 10. Contribuição
 
 Este repositório é parte de um projeto educacional, mas contribuições são bem-vindas! Caso tenha sugestões, correções ou melhorias, fique à vontade para:
 
@@ -195,8 +227,7 @@ Este repositório é parte de um projeto educacional, mas contribuições são b
 
 <br />
 
-## 10. Contato
+## 11. Contato
 
 Desenvolvido por [**Rafael**](https://github.com/rafaelq80)
 Para dúvidas, sugestões ou colaborações, entre em contato via GitHub ou abra uma issue!
-
